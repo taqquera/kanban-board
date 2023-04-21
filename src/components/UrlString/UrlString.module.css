@@ -1,0 +1,44 @@
+.inputWrapper {
+    display: flex;
+    margin: 0 auto;
+    border-radius: 6px;
+    justify-content: space-between;
+    width: 1000px;
+    height: 66px;
+    padding: 12px;
+    box-sizing: border-box;
+    cursor:  pointer;
+    align-items: center;
+}
+
+.btn {
+    outline: none;
+    width: 70px;
+    height: 40px;
+    border: none;
+    background: #fff;
+    cursor: pointer;
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 16px;
+}
+
+.searchString {
+    resize: none;
+    margin-right: 10px;
+    border: none;
+    padding: 0 12px;
+    font-weight: 400;
+    font-size: 16px;
+    height: 40px;
+    line-height: 24px;
+    cursor:  pointer;
+    width: 100%;    
+}
+
+.searchString::placeholder {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.searchString:focus {
+    outline: none;
+}

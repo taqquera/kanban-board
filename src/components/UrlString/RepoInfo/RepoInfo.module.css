@@ -1,0 +1,24 @@
+.repo {
+    display: flex;
+    flex-direction: row;
+    padding: 12px;
+
+}
+
+.repoName {
+    margin-right: 30px;
+}
+.repoLink {
+    text-decoration: none;
+    color: #fff;
+}
+
+.repoRating {
+    display: flex;
+    flex-direction: row;
+}
+.starIcon {
+    width: 18px;
+    height: 18px;
+    margin-right: 5px;
+}

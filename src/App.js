@@ -1,23 +1,24 @@
-import logo from './logo.svg';
+import React, { useState } from 'react';
 import './App.css';
+import UrlString from './components/UrlString/UrlStrnig';
+import DragNDrop from './components/DragNDrop/DragNDrop';
+
+// let api = 'https://github.com/facebook/react/issues' is this link  correct? :)
+
+
+const data = [
+  {title: 'To Do', items: ['1', '2', '3']},
+  {title: 'In Progress', items: ['4', '5']},
+  {title: 'Done', items: ['6', '7', '8']}
+]
 
 function App() {
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className='wrapper'><UrlString />
+      <DragNDrop data={data} /></div>
+      
     </div>
   );
 }

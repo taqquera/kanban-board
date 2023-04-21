@@ -1,26 +1,4 @@
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
-
-.App {
-  min-height: 100vh;
-  text-align: center;
-  background-color: #282c34;
-  color: #fff;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-}
-
-.wrapper {
-  width: 1000px;
-  
-  margin: 0 auto;
-}
-
-.drag-n-drop {
+/* .drag-n-drop {
   padding: .5rem;
   display: grid;
   gap: 0.5rem;
@@ -29,13 +7,13 @@
   grid-template-columns: repeat(auto-fill, 300px);
 }
 
-.dnd-group {
+.dndGroup {
   background-color: #49595e;
   border-radius: 5px;
   padding: .5rem;
 }
 
-.dnd-item {
+.dndItem {
   min-height: 150px;
   border-radius: 5px;
   display: flex;
@@ -47,13 +25,13 @@
   font-size: 1.2rem;
 }
 
-.dnd-item:not(:last-of-type) {
+.dndItem:not(:last-of-type) {
   margin-bottom: .5rem;
 }
 
-.dnd-item * {
+.dndItem * {
   margin: 0;
-  
+
 }
 
 .group-title {
@@ -61,7 +39,6 @@
   font-size: 1.5rem;
 }
 
-.current { 
+.current {
   background-color: #282c34;
-}
-
+} */
